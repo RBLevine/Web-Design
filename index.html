@@ -9,27 +9,41 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand homebutton" href="index.html">Home</a>
-            
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCoding" aria-controls="navbarCoding" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand homebutton" href="index.html">Home</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCoding" aria-controls="navbarCoding" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="navbar-collapse collapse show" id="navbarCoding" style>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown show">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropDown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Plots</a>
+                    <div class="dropdown-menu show" aria-labelledby="navbarDropDown">
+                        <a class="dropdown-item" href="#">Lattitude vs. Max Temp</a>
+                        <a class="dropdown-item" href="#">Lattitude vs. Max Humidity</a>
+                        <a class="dropdown-item" href="#">Lattitude vs. Cloudiness</a>
+                        <a class="dropdown-item" href="#">Lattitude vs. Wind Speed</a>
+                    </div>
+                </li>
 
-            <div class="col-7"></div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Data</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Comparison</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="rows">
+        <div class="col-sm-12 col-md-8 col-lg-8">
             
-            <div class="collapse navbar-collapse" id="navbarCoding">
-                <ul class="navbar-nav mr-auto">
-                    <li class="navtabs-item dropdown option menu">
-                        <a class="navtabs-link dropdown" id="navtabsDropDown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">plot</a>
-                        
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        </div>
     </div>
-
 </body>
 
 </html>
