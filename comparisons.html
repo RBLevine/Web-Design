@@ -37,6 +37,7 @@
                             <a class="dropdown-item" href="maxTemp.html">Lattitude vs. Max Temp</a>
                             <a class="dropdown-item" href="humidity.html">Lattitude vs. Max Humidity</a>
                             <a class="dropdown-item" href="cloud.html">Lattitude vs. Cloudiness</a>
+                            <a class="dropdown-item" href="windSpeed.html">Lattitude vs. Wind Speed</a>
                         </div>
                     </li>
 
@@ -44,47 +45,33 @@
                         <a class="nav-link" href="data.html">Data</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="comparisons.html">Comparison</a>
-                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container content">
+    <div class="container content bg-white">
+        <h3>Comparison: Latitude vs. X</h3>
+        <hr>
+        <p>Click on any plot to get an in-depth analysis:</p>
         <div class="row">
-            <div class="col-md-8">
-                <div class="col-md-12">
-                    <h3>Latitude vs. Wind Speed</h3>
-                    <hr>
-                    <img src="Resources/assets/images/Fig4.png" width="100%" alt="maxTemp">
-                    <br>
-                    <p>
-                        There is no relation between wind speed and latitude. Locations across all latitudes can experience a wide range of wind speeds. Wind speeds do tend towards 15mph or less. Locations further north appear to experience the widest range of wind speed; locations with latitudes between 45-80 experience winds up to 37mph. Other locations have wind speeds maxing out around 25mph.
-                    </p>
-                </div>
+            <div class="col-md-6">
+                <h3 class="text-center">vs. Max Temperature</h3>
+                <a href="maxTemp.html"><img width="100%" src="Resources/assets/images/Fig1.png"></a>
             </div>
-
-            <div class="col-md-4">
-                <div class="col-md-12">
-                    <h3>Visualizations</h3>
-                    <hr>
-                    <div class="row">
-                        <div class="col-4 col-md-6">
-                            <a href="maxTemp.html"><img src="Resources/assets/images/Fig1.png" width="100%"
-                                    alt="tempPic"></a>
-                        </div>
-                        <div class="col-4 col-md-6">
-                            <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" width="100%"
-                                    alt="humidityPic"></a>
-                        </div>
-                        <div class="col-4 col-md-6">
-                            <a href="cloud.html"><img src="Resources/assets/images/Fig3.png" width="100%"
-                                    alt="cloudinessPic"></a>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-6">
+                <h3 class="text-center">vs. Humidity</h3>
+                <a href="humidity.html"><img width="100%" src="Resources/assets/images/Fig2.png"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="text-center">vs. Cloudiness</h3>
+                <a href="cloud.html"><img width="100%" src="Resources/assets/images/Fig3.png"></a>
+            </div>
+            <div class="col-md-6">
+                <h3 class="text-center">vs. Wind Speed</h3>
+                <a href="windSpeed.html"><img width="100%" src="Resources/assets/images/Fig4.png"></a>
             </div>
         </div>
     </div>
