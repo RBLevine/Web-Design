@@ -44,21 +44,46 @@
         </div>
     </nav>
 
-    <div class="row">
-        <div class="col-sm-12 col-md-8 col-lg-8">
-            <h1 class="text-left mainHeader">Summary: Latitude vs. X</h1>
-            <hr class="my-4">
-            <img src="Resources/assets/images/Fig1.png" alt="Latitude vs Temperature" class="rounded main-image">
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="col-md-12">
+                    <h3>Summary: Latitude vs. X</h3>
+                    <hr>
+                    <div class="thumbnail">
+                        <img class="img-thumbnail float-left" src="Resources/assets/images/Fig1.png" width="50%" alt="Temp Graph">
+                    </div>
+                    <p>
+                        The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                    </p>
 
-            <p>
-                The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-            </p>
+                    <p>
+                        After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we look at included: temperatue, cloudiness, winde speed, and humidity. This site provides the source data and visualizations as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                    </p>
+                </div>
+            </div>
 
-            <p>
-                After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we look at included: temperatue, cloudiness, winde speed, and humidity. This site provides the source data and visualizations as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
-            </p>
+            <div class="col-md-4">
+                <div class="col-md-12">
+                    <h3>Visualizations</h3>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3 col-md-6">
+                            <a href="#"><img src="Resources/assets/images/Fig1.png" width="100%" alt="tempPic"></a>
+                        </div>
+                        <div class="col-3 col-md-6">
+                            <a href="#"><img src="Resources/assets/images/Fig2.png" width="100%" alt="humidityPic"></a>
+                        </div>
+                        <div class="col-3 col-md-6">
+                            <a href="#"><img src="Resources/assets/images/Fig3.png" width="100%" alt="cloudinessPic"></a>
+                        </div>
+                        <div class="col-3 col-md-6">
+                            <a href="#"><img src="Resources/assets/images/Fig4.png" width="100%" alt="windSpeedPic"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
-
 </html>
