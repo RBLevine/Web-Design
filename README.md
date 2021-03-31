@@ -1,4 +1,5 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
+[Deployed to GitPages](https://rblevine.github.io/web-design-challenge/)
 
 ## Background
 
